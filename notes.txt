@@ -1,0 +1,4 @@
+git status
+
+To move all files to staging directory:-
+git add --a
