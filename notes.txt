@@ -5,3 +5,5 @@ git add --a
 
 To Commit(With a Message,-m):-
 git commit -m "Initial"
+
+Note
