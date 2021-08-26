@@ -2,3 +2,6 @@ git status
 
 To move all files to staging directory:-
 git add --a
+
+To Commit(With a Message,-m):-
+git commit -m "Initial"
