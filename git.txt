@@ -1,0 +1,122 @@
+To check if already Git Repo:-
+git status
+
+To initialize Git Repo:-
+git init
+
+Check if Git Repo:-
+git status
+
+To move all files to staging directory or area:-
+git add --a or git add .
+
+To  move single File:-
+git add filename
+
+To unstage any file:-
+git restore --staged filename
+
+To restore file or unmodify to match to previous commit before adding file to staging area:-
+git checkout -- filename
+
+To undo all the changes done and match with previous commit:-
+git checkout -f
+
+To Commit(With a Message,-m):-
+git commit -m "Initial"
+
+TO view commits:-
+git log
+
+TO delete Git Repo Content
+rm -rm .git
+
+To Ignore files:-
+if we have a file error.log and we dont want it to be staged or to commit. Then,
+make .gitignore file :- touch .gitignore and then stage :- git add . and ,commit it :- git commit -m "added gitignore". 
+and place the name of file (error.log) or (*.log) if we have multiple .log files in .gitignore, so when we do any changes in error.log and check git status, it will 
+ignore error.log since it ignores it.
+ 
+To Ignore Directories:-
+If we have a directory or folder named dir and we want to ignore it then do :- git status and place name of directory
+or dir/ in .gitignore.
+It ignores all the directories with name dir.
+If we want to ignore only outer dir then add:- /dir/ in .gitignore
+Or we can also git path to ignore static/dir
+
+git diff:-
+coampares working directory with staging area
+
+git diff --staged :-
+compares last commit with current staging area
+
+To commit files without Staging area, which are being tracked:-
+git commit -a -m "okay"
+
+To Delete File:-
+git rm filename
+adds directly to staging area, we dont have to to git add now
+
+To Rename File:-
+git mv first.txt first_renamed.txt
+adds directly to staging area, we dont have to to git add now
+
+To untrack files (which are already staged):-
+git rm --cached filename
+op:-deleted filename
+now add filename in .gitignore, if we dont want to track
+
+To see what has been added and removed in commit:-
+git log -p
+
+
+To see n commits added or removed:-
+git log -p -n
+ex:- git log -p -2
+
+See what happened in commits in short:=
+git log --stat
+
+See all commits in one by one line or in short without date and diff:-
+git log --pretty=oneline
+
+git log --pretty=short
+
+git log --pretty=short ->To see the author too
+
+
+TO see Commits in last n days/weeks/months/years:-
+git log --since=n.days
+ex:- git log --since=2.days ->shows commit of last 2 days
+
+git log --since=n.weeks
+
+git log --since=n.months
+
+git log --since=n.years
+
+
+Merges changes in the previous commit and change the messages:-
+git commit --amend
+Run it one editor will open 
+Press i to edit
+TO view the changes:-
+gir log -p -1
+
+---------------------------------Working with GITHUB--------------------------------
+
+To check:-
+git remote
+
+To create a remote:-
+git remote add origin https://github.com/codenameraj47/GitDemo.git
+we kept the name of website (https://github.com/codenameraj47/GitDemo.git) as origin (we can keep anything)
+and we added it as a remote.
+Verify with :- git remote
+
+To see where to fetch(pull) or push:-
+git remote -v
+
+To push the files in GitHUB
+git push -u origin master
+

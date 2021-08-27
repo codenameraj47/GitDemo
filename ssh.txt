@@ -1,7 +1,20 @@
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACCniQOv+ZXIGh5fiEYFsZZ3/LhAjvMWbMCxnNfmsWaxOwAAAKBahcjtWoXI
-7QAAAAtzc2gtZWQyNTUxOQAAACCniQOv+ZXIGh5fiEYFsZZ3/LhAjvMWbMCxnNfmsWaxOw
-AAAECtEoYSG/mpwWFmzdD2FDxKwTM/WgDPZhVsV28P0rwMa6eJA6/5lcgaHl+IRgWxlnf8
-uECO8xZswLGc1+axZrE7AAAAFnNob2JoaXRyYWo0N0BnbWFpbC5jb20BAgMEBQYH
------END OPENSSH PRIVATE KEY-----
+
+Your identification has been saved in /c/Users/shobh/.ssh/id_ed25519
+Your public key has been saved in /c/Users/shobh/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:1xqM0O4E2CwDEPp+W6d6FprpCNmLXzeltgzrFX1jisY shobhitraj47@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|oo.              |
+|.  . + .         |
+|.   + = .        |
+| .   o = o .     |
+|  .   . S B .    |
+| +   ..B = +     |
+|o o ++E.+ .      |
+| o =+@o=         |
+|..+o*++          |
++----[SHA256]-----+
+
+
+Agent pid 2247
